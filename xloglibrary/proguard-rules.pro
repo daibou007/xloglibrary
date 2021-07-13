@@ -19,3 +19,6 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+# 给Library模块自己使用的混淆规则
+-keep class com.ybxiang.mars.xlog.** {*;}

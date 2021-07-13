@@ -1,8 +1,11 @@
 # xloglibrary
 ## 背景
-基于tentcent/mars/xlog v1.2.6简化日志格式，  
+基于tentcent/mars/xlog v1.2.6简化日志格式，
+
 1、移除日志文件头. 
+
 2、精简日志格式. 
+
 原来的日志
 ```
 ^^^^^^^^^^Feb 24 2021^^^09:50:49^^^^^^^^^^[18083,18083][2021-07-18 +0800 17:18:41]
@@ -29,6 +32,7 @@ log dir space info, capacity:55782572032 free:49157718016 available:49006723072
 
 ## 使用
 gradle添加依赖
+
 1、根build.gradle添加仓库
 ```
 allprojects {

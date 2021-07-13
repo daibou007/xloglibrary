@@ -45,7 +45,7 @@ allprojects {
 2、app的build.gradle添加依赖
 ```
 dependencies {
-    implementation 'com.github.zhetengxiang:xlogLibrary:1.2.6.1'
+    implementation 'com.github.zhetengxiang:xlogLibrary:1.2.6.3'
 }
 
 ```

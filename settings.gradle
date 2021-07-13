@@ -1,2 +1,2 @@
 rootProject.name = "xloglibrary"
-include ':xlogLibrary'
+include ':library'

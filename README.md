@@ -1,8 +1,8 @@
 # xloglibrary
 ## 背景
-基于tentcent/mars/xlog v1.2.6简化日志格式，
-1、移除日志文件头
-2、精简日志格式
+基于tentcent/mars/xlog v1.2.6简化日志格式，  
+1、移除日志文件头. 
+2、精简日志格式. 
 原来的日志
 ```
 ^^^^^^^^^^Feb 24 2021^^^09:50:49^^^^^^^^^^[18083,18083][2021-07-18 +0800 17:18:41]
@@ -32,17 +32,16 @@ gradle添加依赖
 1、根build.gradle添加仓库
 ```
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
-
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
 ```
 2、app的build.gradle添加依赖
 ```
 dependencies {
-	implementation 'com.github.zhetengxiang:xlogLibrary:1.2.6.1'
+    implementation 'com.github.zhetengxiang:xlogLibrary:1.2.6.1'
 }
 
 ```

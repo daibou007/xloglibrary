@@ -49,3 +49,7 @@ dependencies {
 }
 
 ```
+3、和app的Log日志一致
+```
+Log.d(TAG, "xxx")
+```

@@ -1,3 +1,17 @@
+
+# 工程说明
+## 解决com.github.zhetengxiang:xlogLibrary缺少arm64-v8a库问题
+
+基于com.github.zhetengxiang:xlogLibrary,增加缺少的arm64-v8a库文件。
+
+使用：
+```
+dependencies {
+    implementation 'com.github.daibou007:xlogLibrary:1.0.1'
+}
+
+```
+
 # xloglibrary
 ## 背景
 基于tentcent/mars/xlog v1.2.6简化日志格式，
